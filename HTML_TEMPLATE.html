@@ -1,0 +1,67 @@
+HTML_TEMPLATE = """
+    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-900 text-white p-6">
+      <Card className="max-w-3xl w-full text-center p-6 bg-gray-800 shadow-lg rounded-2xl">
+        <h1 className="text-4xl font-bold mb-4">My Discord Music Bot</h1>
+        <p className="text-lg text-gray-300 mb-6">
+          A fast, feature-rich music bot for Discord with instant response buttons.
+        </p>
+        <div className="flex justify-center space-x-4 mb-6">
+          <a href="https://discord.com/oauth2/authorize?client_id=1343179814206570599&permissions=8&integration_type=0&scope=bot" target="_blank" rel="noopener noreferrer">
+            <Button className="bg-blue-600 hover:bg-blue-700 px-6 py-3 rounded-xl flex items-center space-x-2">
+              <FaPlay />
+              <span>Invite Bot</span>
+            </Button>
+          </a>
+          <a href="https://discord.gg/pRBhdWVw" target="_blank" rel="noopener noreferrer">
+            <Button className="bg-indigo-600 hover:bg-indigo-700 px-6 py-3 rounded-xl flex items-center space-x-2">
+              <FaDiscord />
+              <span>Join Discord Server</span>
+            </Button>
+          </a>
+        </div>
+        <CardContent>
+          <h2 className="text-2xl font-semibold mb-3">Features</h2>
+          <ul className="text-gray-300 space-y-2">
+            <li>✅ Instant response buttons for controls</li>
+            <li>✅ Supports URLs and song title playback</li>
+            <li>✅ Easy deployment with EXE support</li>
+            <li>✅ Volume, skip, pause, autoplay, and more</li>
+          </ul>
+        </CardContent>
+      </Card>
+    </div>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>K9 Music - Happy Music</title>
+  <style>
+    body { font-family: Arial, sans-serif; background-color: #f7f7f7; margin: 0; padding: 20px; }
+    .container { max-width: 800px; margin: auto; background: white; padding: 20px; border-radius: 8px; }
+    h1 { color: #333; }
+    p { line-height: 1.6; }
+    .commands { background: #eee; padding: 10px; border-radius: 5px; }
+    .commands li { margin-bottom: 5px; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome to K9 Music</h1>
+    <h1>សូមស្វាគមន៌មកកាន់ K9 Music</h1>
+    <p>The Discord Music Bot is running smoothly and unobtrusively. Use the commands below to control the music:</p>
+    <ul class="commands">
+      <li><strong>j</strong> - Join your voice channel</li>
+      <li><strong>pl</strong> - Play a song from a URL</li>
+      <li><strong>st</strong> - Stop playback and clear the queue</li>
+      <li><strong>le</strong> - Leave the voice channel and clear the queue</li>
+      <li><strong>sk</strong> - Skip the current song</li>
+      <li><strong>pn</strong> - Play the next song in the queue</li>
+      <li><strong>pa</strong> - Pause the current song</li>
+      <li><strong>re</strong> - Resume playback</li>
+    </ul>
+    <p>Enjoy your music experience with K9 Music!</p>
+    <p>សូមរីករាយ នឹងកាចាក់បទចម្រៀងជាមួយ k9music!</p>
+  </div>
+</body>
+</html>
+"""
