@@ -212,4 +212,4 @@ if __name__ == '__main__':
     web_thread.start()
 
     # Run the Discord bot.
-    bot.run("MTM0MzE3OTgxNDIwNjU3MDU5OQ.GkiBtj.GhPGhR_5PotgLfjXnAeEsPEqicfcd413gsYVKM")
+    bot.run("MTM0MzE3OTgxNDIwNjU3MDU5OQ.G8R5Mo.a_YcgNhRI-waRTgL_ul6KXEPE6lbR2gUUi8yrQ")
